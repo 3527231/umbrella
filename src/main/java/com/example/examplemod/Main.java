@@ -30,10 +30,6 @@ public class Main
     public void init(FMLInitializationEvent event)
     {
         if (proxy instanceof ClientProxy){
-<<<<<<< HEAD
-=======
-            ParticleLava
->>>>>>> a3466a8302166c45fdaddfa324a647ec28977f0a
             KeyInit.init();
         }
     }
