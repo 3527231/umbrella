@@ -1,6 +1,9 @@
 package com.example.examplemod.item;
 
+<<<<<<< HEAD
 import com.example.examplemod.skill.ModSwordSkill;
+=======
+>>>>>>> a3466a8302166c45fdaddfa324a647ec28977f0a
 import net.java.games.input.Controller;
 import net.java.games.input.Keyboard;
 import net.minecraft.block.BlockTNT;
@@ -31,7 +34,11 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @Mod.EventBusSubscriber
+<<<<<<< HEAD
 public class PoisonSword extends ToolSword implements ModSwordSkill {
+=======
+public class PoisonSword extends ToolSword{
+>>>>>>> a3466a8302166c45fdaddfa324a647ec28977f0a
     public static final Item.ToolMaterial POISON = EnumHelper.addToolMaterial("emerald",4,15610,10.0F,4.0F,10);
     public PoisonSword() {
         super("poison_sword", POISON);
@@ -74,6 +81,7 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
         }
     }
 
+<<<<<<< HEAD
     @Override
     public void skill1() {
         System.out.println("一技能");
@@ -89,6 +97,8 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
         System.out.println("三技能");
     }
 
+=======
+>>>>>>> a3466a8302166c45fdaddfa324a647ec28977f0a
     public class ThreadRunMinecreaft implements Runnable{
         EntityLivingBase entity;
         int r;

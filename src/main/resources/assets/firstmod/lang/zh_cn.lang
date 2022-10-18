@@ -1,6 +1,10 @@
 item.diy_iron.name=自定义铁锭
 item.poison_sword.name=毒粹剑
+<<<<<<< HEAD
 key.firstmod.skill_1=技能一
 key.firstmod.skill_2=技能二
 key.firstmod.skill_3=技能三
+=======
+key.firstmod.skill_1=一技能
+>>>>>>> a3466a8302166c45fdaddfa324a647ec28977f0a
 key.category.firstmod=douzi的模组
