@@ -76,17 +76,17 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
 
     @Override
     public void skill1() {
-
+        System.out.println("一技能");
     }
 
     @Override
     public void skill2() {
-
+        System.out.println("二技能");
     }
 
     @Override
     public void skill3() {
-
+        System.out.println("三技能");
     }
 
     public class ThreadRunMinecreaft implements Runnable{

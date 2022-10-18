@@ -30,7 +30,6 @@ public class Main
     public void init(FMLInitializationEvent event)
     {
         if (proxy instanceof ClientProxy){
-            ParticleLava
             KeyInit.init();
         }
     }
