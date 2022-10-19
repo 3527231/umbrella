@@ -72,10 +72,12 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
     public void skill1() {
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         Vec3d lookVec = player.getLookVec();
-        Vec3d vec3d = new Vec3d(lookVec.x, 0, lookVec.z).normalize();
-        Vec3d position = player.getPositionVector().add(vec3d.scale(10f));
 
-        (new Thread(new ThreadRunMinecreaft(position,4))).start();
+        Vec3d vec3d = new Vec3d(lookVec.x, 0, lookVec.z).normalize();
+
+        Vec3d position = player.getPositionVector().add(vec3d.scale(10f));
+        System.out.println(position.toString());
+        (new Thread(new ThreadRunMinecreaft(position,10))).start();
     }
 
     @Override
