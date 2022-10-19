@@ -1,6 +1,9 @@
 package com.example.examplemod.item;
 
+<<<<<<< HEAD
 import com.example.examplemod.skill.ModSwordSkill;
+=======
+>>>>>>> 563e179ac11ef410ad2a925081a9c0acdc28927b
 import net.java.games.input.Controller;
 import net.java.games.input.Keyboard;
 import net.minecraft.block.BlockTNT;
@@ -31,7 +34,11 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @Mod.EventBusSubscriber
+<<<<<<< HEAD
 public class PoisonSword extends ToolSword implements ModSwordSkill {
+=======
+public class PoisonSword extends ToolSword{
+>>>>>>> 563e179ac11ef410ad2a925081a9c0acdc28927b
     public static final Item.ToolMaterial POISON = EnumHelper.addToolMaterial("emerald",4,15610,10.0F,4.0F,10);
     public PoisonSword() {
         super("poison_sword", POISON);
@@ -70,6 +77,7 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
             double d = r - Math.pow(i,2);
             world.spawnParticle(EnumParticleTypes.LAVA, attacker.posX+i, attacker.posY, attacker.posZ+(Math.sqrt(d)*-1), 0.0D, 0.0D, 0.0D);
             Thread.sleep(10);
+<<<<<<< HEAD
 
         }
     }
@@ -89,6 +97,12 @@ public class PoisonSword extends ToolSword implements ModSwordSkill {
         System.out.println("三技能");
     }
 
+=======
+            
+        }
+    }
+
+>>>>>>> 563e179ac11ef410ad2a925081a9c0acdc28927b
     public class ThreadRunMinecreaft implements Runnable{
         EntityLivingBase entity;
         int r;
